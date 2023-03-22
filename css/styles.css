@@ -407,8 +407,10 @@ margin-left: 156px;
   margin-right: 24px;
   margin-bottom: 48px;
 
-  
+  outline: solid #E7E9FC 1px;
+
 }
+
 
 .row-item:nth-child(3n) {
   margin-right: 0px;
