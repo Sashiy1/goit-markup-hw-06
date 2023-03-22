@@ -162,7 +162,7 @@ body {
   color: #ffffff;
   margin-top: 0;
 }
-.button {
+/* .button {
   display: inline-block;
 
   padding-top: 16px;
@@ -175,8 +175,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -185,7 +183,7 @@ body {
   color: #ffffff;
 
   cursor: pointer;
-}
+} */
 
 .button:is(:hover, :focus) {
   background-color: #404bbf;
