@@ -162,7 +162,7 @@ body {
   color: #ffffff;
   margin-top: 0;
 }
-/* .button {
+.button {
   display: inline-block;
 
   padding-top: 16px;
@@ -183,7 +183,7 @@ body {
   color: #ffffff;
 
   cursor: pointer;
-} */
+}
 
 .button:is(:hover, :focus) {
   background-color: #404bbf;
