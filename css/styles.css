@@ -1,8 +1,10 @@
 body {
-  width: 1440px;
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #434455;
+}
+
+img {
+  display: block;
 }
 
 .link {
@@ -15,19 +17,40 @@ body {
   margin-top: 0;
   padding-left: 0px;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1128px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+
   /* background-color: green; */
 }
 
 /* header */
 
 .header {
+
   border-bottom: 1px solid #e7e9fc;
 }
+
+.header-container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -54,9 +77,6 @@ body {
 }
 
 .logo-dark {
-  padding-top: 24px;
-  padding-bottom: 24px;
-
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -74,8 +94,6 @@ body {
 
 .header-link {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
 
   font-weight: 500;
   font-size: 16px;
@@ -106,8 +124,6 @@ body {
 
 .address-link {
   display: inline-block;
-  padding-bottom: 24px;
-  padding-top: 24px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -124,8 +140,6 @@ body {
 
 .tele-link {
   display: inline-block;
-  padding-bottom: 24px;
-  padding-top: 24px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -141,18 +155,28 @@ body {
 }
 
 /* section-1 */
-.description {
-  margin-left: auto;
+
+.section-description {
+  padding-top: 188px;
+  padding-bottom: 188px;
   margin-right: auto;
-  width: 1440px;
+  margin-left: auto;
 
   background-color: #2e2f42;
   text-align: center;
-  margin-bottom: 120px;
+}
+
+.description {
+ 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2e2f42;
+  text-align: center;
 }
 .description-title {
-  padding-top: 188px;
+  margin-top: 0;
   margin-bottom: 48px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -160,16 +184,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-top: 0;
 }
 .button {
   display: inline-block;
-
+  border: transparent;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-right: 32px;
   padding-left: 32px;
-  margin-bottom: 188px;
 
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -191,11 +213,14 @@ body {
 }
 
 /* section-2 */
+.what-we-do-section {
+ 
+  padding-bottom: 131px;
+}
+
+
 .about-us-list {
   display: flex;
-  margin-bottom: 120px;
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .about-us-item {
@@ -230,7 +255,6 @@ body {
 /* section-3 */
 .what-we-do-list {
   display: flex;
-  margin-bottom: 131px;
 }
 
 .what-we-do-item {
@@ -266,9 +290,8 @@ body {
 }
 
 .specialist-header {
-  padding-top: 120px;
+  margin-top: 0px;
   margin-bottom: 72px;
-  margin-top: 0;
 
   font-style: normal;
   font-weight: 700;
@@ -297,11 +320,19 @@ body {
 }
 
 .specialist-image {
-  margin-bottom: 32px;
+  margin-bottom: 0px;
 }
+
+.specialist-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .specialist-title {
   margin-top: 0px;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -315,7 +346,7 @@ body {
 
 .section-occupation {
   margin-top: 0px;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -330,7 +361,6 @@ body {
 /* footer */
 .footer {
   background-color: #2e2f42;
-  max-width: 1440px;
   align-items: center;
   border: 1px solid #000000;
 }
@@ -339,12 +369,11 @@ body {
   color: #f4f4fd;
 }
 .logo-footer {
-  padding-top: 100px;
   margin-bottom: 16px;
 }
 .footer-text {
-  margin-top: 0px;
-  margin-bottom: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -357,17 +386,19 @@ body {
 
 /* filters */
 .filters {
-  width: 1440px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .filters-list {
   display: flex;
-  margin-top: 96px;
-  margin-bottom: 72px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .filters-item {
+  /* margin-left: auto;
+margin-right: auto; */
   margin-right: 24px;
 }
 .filters-item:last-child {
@@ -375,7 +406,6 @@ body {
 }
 
 .filters-item-button {
-  display: flex;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
@@ -404,28 +434,37 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 156px;
-  margin-left: 156px;
 }
 
 .row-item {
   margin-right: 24px;
   margin-bottom: 48px;
-
-  outline: solid #e7e9fc 1px;
 }
 
 .row-item:nth-child(3n) {
   margin-right: 0px;
 }
-.row-image {
-  margin-bottom: 32px;
+
+.row-item:nth-child(n + 4) {
+  margin-bottom: 72px;
+}
+.row-item:nth-child(n + 7) {
+  margin-bottom: 0px;
+}
+
+.row-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+
+  border-left: solid #e7e9fc 1px;
+  border-right: solid #e7e9fc 1px;
+  border-bottom: solid #e7e9fc 1px;
 }
 
 .row-title {
   margin-top: 0;
-  margin-bottom: 8px;
-  padding-left: 16px;
+  margin-bottom: 0;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -434,13 +473,14 @@ body {
 }
 .row-text {
   margin-top: 0;
-  margin-bottom: 32px;
-  padding-left: 16px;
-
+  margin-bottom: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.row-img {
+  margin-bottom: 0px;
 }

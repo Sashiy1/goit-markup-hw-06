@@ -7,33 +7,36 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav container">
-        <a class="logo-blue link logo" href="./index.html"
-          >Web<span class="logo-dark">Studio</span></a
-        >
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Contacts</a>
-          </li>
-        </ul>
+      <div class="header-container">
+        <nav class="header-nav">
+          <a class="logo-blue link logo" href="./index.html"
+            >Web<span class="logo-dark">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <address class="header-address">
           <ul class="header-list list">
             <li class="header-item">
@@ -48,11 +51,11 @@
             </li>
           </ul>
         </address>
-      </nav>
+      </div>
     </header>
     <main class="main">
       <!-- 1 -->
-      <section class="section description">
+      <section class="section-description">
         <div class="container">
           <h1 class="description-title">
             Effective Solutions <br />
@@ -98,7 +101,7 @@
         </div>
       </section>
       <!-- 3 -->
-      <section class="section">
+      <section class="what-we-do-section">
         <div class="container">
           <h2 class="what-we-do-title">What are we doing</h2>
           <ul class="what-we-do-list list">
@@ -131,7 +134,7 @@
       </section>
       <!-- 4 -->
       <section class="section specialist-section">
-        <div class="container specialist-container">
+        <div class="container">
           <h2 class="specialist-header">Our Team</h2>
           <ul class="specialist-list list">
             <li class="specialist-item">
@@ -142,8 +145,11 @@
                 height="260"
                 alt="Mark Guerrero"
               />
-              <h3 class="specialist-title">Mark Guerrero</h3>
-              <p class="section-occupation">Product Designer</p>
+
+              <div class="specialist-box">
+                <h3 class="specialist-title">Mark Guerrero</h3>
+                <p class="section-occupation">Product Designer</p>
+              </div>
             </li>
             <li class="specialist-item">
               <img
@@ -153,8 +159,10 @@
                 height="260"
                 alt="Tom Ford"
               />
-              <h3 class="specialist-title">Tom Ford</h3>
-              <p class="section-occupation">Frontend Developer</p>
+              <div class="specialist-box">
+                <h3 class="specialist-title">Tom Ford</h3>
+                <p class="section-occupation">Frontend Developer</p>
+              </div>
             </li>
             <li class="specialist-item">
               <img
@@ -164,8 +172,10 @@
                 height="260"
                 alt="Camila Garcia"
               />
-              <h3 class="specialist-title">Camila Garcia</h3>
-              <p class="section-occupation">Marketing</p>
+              <div class="specialist-box">
+                <h3 class="specialist-title">Camila Garcia</h3>
+                <p class="section-occupation">Marketing</p>
+              </div>
             </li>
             <li class="specialist-item">
               <img
@@ -175,14 +185,16 @@
                 height="260"
                 alt="Daniel Wilson"
               />
-              <h3 class="specialist-title">Daniel Wilson</h3>
-              <p class="section-occupation">UI Designer</p>
+              <div class="specialist-box">
+                <h3 class="specialist-title">Daniel Wilson</h3>
+                <p class="section-occupation">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="section footer">
       <div class="container">
         <a class="logo-blue link logo-footer" href="./index.html"
           >Web<span class="logo-light">Studio</span></a
