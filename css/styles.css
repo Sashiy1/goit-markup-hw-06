@@ -35,7 +35,6 @@ img {
 /* header */
 
 .header {
-
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -49,7 +48,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 
 .header-nav {
   display: flex;
@@ -167,7 +165,6 @@ img {
 }
 
 .description {
- 
   margin-left: auto;
   margin-right: auto;
   background-color: #2e2f42;
@@ -214,10 +211,8 @@ img {
 
 /* section-2 */
 .what-we-do-section {
- 
   padding-bottom: 131px;
 }
-
 
 .about-us-list {
   display: flex;
@@ -332,7 +327,7 @@ img {
 
 .specialist-title {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -360,6 +355,8 @@ img {
 
 /* footer */
 .footer {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
   background-color: #2e2f42;
   align-items: center;
   border: 1px solid #000000;
@@ -387,7 +384,7 @@ img {
 /* filters */
 .filters {
   padding-top: 96px;
-  padding-bottom: 96px;
+  padding-bottom: 120px;
 }
 
 .filters-list {
@@ -464,7 +461,7 @@ margin-right: auto; */
 
 .row-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -477,7 +474,7 @@ margin-right: auto; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
