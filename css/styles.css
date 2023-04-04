@@ -227,22 +227,18 @@ img {
 .about-us-item {
   margin-right: 24px;
 }
-.about-field{
+.about-field {
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 100px;
   padding-right: 100px;
-  background-color:  #F4F4FD;;
+  background-color: #f4f4fd;
 }
 
-.about-field-icon{
+.about-field-icon {
   height: 64px;
   width: 64px;
-
 }
-
-
-
 
 .about-us-list :last-child {
   margin-right: 0;
@@ -390,6 +386,7 @@ img {
 }
 
 .scpecialist-button {
+  display: flex;
   border: none;
   margin: 0;
   padding-top: 12px;
@@ -408,7 +405,13 @@ img {
   width: 16px;
 }
 
+.scpecialist-button:hover {
+  background-color: #31d0aa;
+}
 
+.scpecialist-button:focus {
+  background-color: #31d0aa;
+}
 
 /* 5 */
 .customers-list {
@@ -424,12 +427,12 @@ img {
   margin-right: 0px;
 }
 .customer-button {
-  border: none;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+
   height: 88px;
   width: 168px;
   border-radius: 4px;
@@ -450,12 +453,10 @@ img {
   border: 1px solid #404bbf;
   color: #404bbf;
 }
-
-/* .icon-button:hover{
-fill: #404BBF;
-} */
-
-/* footer */
+.customer-button:focus {
+  border: 1px solid #404bbf;
+  color: #404bbf;
+}
 .footer {
   padding-top: 101.5px;
   padding-bottom: 100px;
@@ -499,8 +500,8 @@ fill: #404BBF;
   color: #ffffff;
 }
 
-
-.social-button-footer{
+.social-button-footer {
+  display: flex;
   border: none;
   margin: 0;
   padding-top: 8px;
@@ -514,15 +515,16 @@ fill: #404BBF;
   cursor: pointer;
 }
 
-
 .social-icon-footer {
   width: 24px;
   height: 24px;
 }
 
-.social-button-footer:hover{
-  background-color: #31D0AA;
-  ;
+.social-button-footer:hover {
+  background-color: #31d0aa;
+}
+.social-button-footer:focus {
+  background-color: #31d0aa;
 }
 
 /* Portfolio */
@@ -541,7 +543,6 @@ fill: #404BBF;
 
 .filters-item {
   margin-right: 24px;
-
 }
 .filters-item:last-child {
   margin-right: 0px;
@@ -570,7 +571,8 @@ fill: #404BBF;
 .filters-item-button:is(:hover, :focus) {
   background: #404bbf;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* sections */
@@ -582,11 +584,11 @@ fill: #404BBF;
 .row-item {
   margin-right: 24px;
   margin-bottom: 48px;
-
 }
 
-.row-item:hover{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.row-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .row-item:nth-child(3n) {
