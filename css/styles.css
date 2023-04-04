@@ -371,7 +371,7 @@ img {
 
 .section-occupation {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -382,6 +382,30 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+
+.social-list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.social-item {
+  margin-right: 24px;
+}
+.social-item:last-child {
+  margin-right: 0px;
+}
+
+.social-icon{
+  height: 40px;
+  width: 40px;
+}
+
+
 /* 5 */
 .customers-list {
   display: flex;
