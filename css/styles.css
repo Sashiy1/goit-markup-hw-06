@@ -15,6 +15,7 @@ img {
   list-style: none;
   margin-bottom: 0;
   margin-top: 0;
+  margin-right: 0px;
   padding-left: 0px;
 }
 .section {
@@ -160,16 +161,21 @@ img {
   margin-right: auto;
   margin-left: auto;
 
-  background-color: #2e2f42;
   text-align: center;
+  max-width: 1440px;
+  height: 600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1-min.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.description {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #2e2f42;
-  text-align: center;
-}
 .description-title {
   margin-top: 0;
   margin-bottom: 48px;
@@ -220,6 +226,30 @@ img {
 
 .about-us-item {
   margin-right: 24px;
+}
+
+.about-us-item::before {
+  display: block;
+  content: "";
+  height: 112px;
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f4f4fd;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/antenna\ 1-min.png);
+}
+.icon-clock::before {
+  background-image: url(../images/clock\ 1-min.png);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/diagram\ 1-min.png);
+}
+.icon-astronaut::before {
+  background-image: url(../images/astronaut\ 1-min.png);
 }
 
 .about-us-list :last-child {
@@ -352,6 +382,54 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* 5 */
+.customers-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.customer-item {
+  margin-right: 24px;
+}
+.customer-item:last-child {
+  margin-right: 0px;
+}
+.customer-button {
+  border: none;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 88px;
+  width: 168px;
+  border-radius: 4px;
+  
+  background-color: white;
+  border: 1px solid #8e8f99;
+  color: #8e8f99;
+  cursor: pointer; 
+}
+
+
+
+.icon-button {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
+
+.customer-button:hover{
+  border: 1px solid #404BBF;
+  color: #404BBF;
+}
+
+
+/* .icon-button:hover{
+fill: #404BBF;
+} */
 
 /* footer */
 .footer {
