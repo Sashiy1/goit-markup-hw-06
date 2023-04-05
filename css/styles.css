@@ -582,6 +582,7 @@ img {
 }
 
 .row-item {
+  
   margin-right: 24px;
   margin-bottom: 48px;
 }
@@ -601,6 +602,25 @@ img {
 .row-item:nth-child(n + 7) {
   margin-bottom: 0px;
 }
+
+.portfolio-product{
+  position: relative;
+}
+
+
+.portfolio-product::before{
+  display: inline-block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #4D5AE5;
+  opacity: 0;
+}
+.portfolio-product:hover::before{
+  opacity: 1;
+}
+
 
 .row-container {
   padding-top: 32px;
@@ -633,4 +653,30 @@ img {
 }
 .row-img {
   margin-bottom: 0px;
+}
+
+.row-hover-title{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+
+.portfolio-product-hover{
+  display: inline-block;
+  position: absolute;
+ top: 40px;
+ right: 32px;
+ left: 32px;
+ opacity: 0;
+}
+
+
+.portfolio-product-hover:hover{
+  opacity: 1;
+
 }
