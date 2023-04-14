@@ -1139,6 +1139,7 @@ a {
 }
 
 .modal {
+  width: 100%;
   display: block;
   position: absolute;
   left: 50%;
